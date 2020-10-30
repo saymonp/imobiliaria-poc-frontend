@@ -1,0 +1,25 @@
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="https://tecnoblog.net/wp-content/uploads/2020/10/Cyberpunk-2077-700x366.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="https://observatoriodegames.uol.com.br/wp-content/uploads/2020/06/Cyberpunk-2077.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="https://observatoriodegames.uol.com.br/wp-content/uploads/2020/08/Cyberpunk-2077-1.png" style="width:100%">
+    </div>
+    
+    <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+    <a class="next" (click)="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" (click)="currentSlide(1)"></span> 
+      <span class="dot" (click)="currentSlide(2)"></span> 
+      <span class="dot" (click)="currentSlide(3)"></span> 
+    </div>
