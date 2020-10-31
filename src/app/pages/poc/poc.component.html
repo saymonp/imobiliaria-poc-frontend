@@ -45,17 +45,39 @@
 					</div>
 				</div>
 				<div class="cover">
-					<img src="../../../assets/img/matebook.png" alt="matebook" />
-				</div>
-			</section>
+					<!-- <img src="../../../assets/img/matebook.png" alt="matebook" /> -->
+					<div class="mySlides fade">
+						<img src="../../../assets/img/matebook.png" alt="matebook" />
+					  </div>
 
-			<div class="laptop-select">
+						<div class="mySlides fade">
+						  <img src="../../../assets/img/matebook-1.png" />
+						</div>
+						
+						<div class="mySlides fade">
+						  <img src="../../../assets/img/matebook-3.png"  />
+						</div>
+						
+				</div>
+				
+				<div class="laptop-select">
+					<a [ngStyle]="{'cursor': 'pointer'}" (click)="plusSlides(-1)"><img src="../../../assets/img/arrow-left.svg" alt="" /></a>
+							<div style="text-align:center">
+								<span class="dot" (click)="currentSlide(1)"></span> 
+								<span class="dot" (click)="currentSlide(2)"></span> 
+								<span class="dot" (click)="currentSlide(3)"></span> 
+							</div>
+					<a [ngStyle]="{'cursor': 'pointer'}" (click)="plusSlides(1)"><img src="../../../assets/img/arrow-right.svg" alt="" /></a>
+					</div>
+			</section>
+			
+			<!-- <div class="laptop-select">
 				<img src="../../../assets/img/arrow-left.svg" alt="" />
 				<img src="../../../assets/img/dot.svg" alt="" />
 				<img src="../../../assets/img/dot-full.svg" alt="" />
 				<img src="../../../assets/img/dot-full.svg" alt="" />
 				<img src="../../../assets/img/arrow-right.svg" alt="" />
-			</div>
+			</div> -->
 
 			<img class="big-circle" src="../../../assets/img/big-eclipse.svg" alt="" />
 			<img class="medium-circle" src="../../../assets/img/mid-eclipse.svg" alt="" />
