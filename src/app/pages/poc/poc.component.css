@@ -133,6 +133,7 @@ nav {
 }
 
 .laptop-select {
+	display: flex;
 	bottom: 10%;
 	width: 15%;
 	display: flex;
@@ -170,6 +171,7 @@ nav {
 		padding: 10px 0px 0px 0px;
 	}
 	.laptop-select {
+
 		bottom: 5%;
 		right: 50%;
 		width: 50%;
